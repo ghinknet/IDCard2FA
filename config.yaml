@@ -1,0 +1,14 @@
+# Config of system log
+log:
+  file:
+    all: "logs/app.log"
+    err: "logs/err.log"
+  maxSize: 5
+  maxBackups: 100
+  maxAge: 30
+  compress: true
+# Credentials for Ghink OpenAPI platform
+ghinkOpenAPI:
+  example:
+    secretID: ""
+    secretKey: ""
